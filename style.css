@@ -14,7 +14,7 @@ header{
 header h1{
     color: white;
     font-size: 70px;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Rubik Mono One", monospace;
 }
 header h3{
     color: white;
@@ -35,4 +35,5 @@ header h3 a{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
