@@ -7,9 +7,10 @@
 }
 header {
   background-color: black;
-  height: 250px;
   text-align: center;
-  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
 }
 header h1 {
   color: white;
@@ -19,90 +20,58 @@ header h1 {
 }
 header h3 {
   color: white;
-  margin: 20px;
+  margin-top: 10px;
 }
-.decoration {
-  text-decoration: none;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 5px;
+a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: rgb(175, 175, 175);
 }
-.decoration:hover {
-  text-decoration: underline;
-  color: yellow;
-  background-color: rgb(255, 0, 0);
+a:hover{
+    text-decoration: underline;
+    color: yellow;
+    background-color: red;
+    transition: 0.5s;
 }
-header h3 a {
-  color: white;
-  margin-left: 10px;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2.5em;
 }
-.cabecalho {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
+section.foto1{
+    background-color: gray;
+    background-image: url(image/foto11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
-.semfoto {
-  font-size: 2.2em;
+section.foto1 > p{
+    background-color: rgba(63, 63, 63, 0.774);
+    width: 500px;
+    padding: 10px;
+    color: white;
 }
-.espaco {
-  padding: 30px;
-  line-height: 2em;
+section.foto2{
+    background-color: gray;
+    background-image: url(image/foto12.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
-.foto1 {
-  background-image: url(image/foto11.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+section.foto2 > p{
+    background-color: rgba(63, 63, 63, 0.788);
+    width: 500px;
+    padding: 10px;
+    color: white;
 }
-.foto2 {
-  background-image: url(image/foto12.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
 }
-.paragrafo1 {
-  padding: 30px;
-  line-height: 2em;
-  color: white;
-  font-size: 2.2em;
-  background-color: rgba(0, 0, 0, 0.76);
-  width: 500px;
-}
-.paragrafo2 {
-  padding: 30px;
-  line-height: 2em;
-  color: white;
-  font-size: 2.2em;
-  background-color: rgba(0, 0, 0, 0.795);
-  width: 500px;
-}
-footer {
-  background-color: black;
-  text-align: center;
-  padding: 15px;
-}
-footer p {
-  color: white;
-  font-size: 1.2em;
-  font-weight: 600;
-}
-footer a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  color: rgb(136, 136, 136);
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-}
-footer a:hover {
-  text-decoration: underline;
-  color: yellow;
-  background-color: rgb(255, 0, 0);
+footer p{
+    color: white;
+    font-size: 1.2em;
 }
